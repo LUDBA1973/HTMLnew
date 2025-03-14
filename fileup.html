@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload Interface</title>
+  <style>
+
+.upload-container {
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-container h2 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.upload-box {
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.upload-box p {
+  font-size: 14px;
+
+}
+
+.browse-btn {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+}
+
+.browse-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  color: #333;
+  font-size: 14px;
+}
+
+ .progress-bar {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(194, 192, 192);
+}
+
+.progress {
+  width: 60%;
+  height: 5px;
+  background-color: #5a67d8;
+  
+}
+ 
+.tt{
+  width: 100%;
+  height: 4px;
+  background-color: #333;
+}
+ 
+.gg{
+  width: 10%;
+  height: 4px;
+  background-color: #e40303;
+}
+.remove-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #313131;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  color: #c2bdbd;
+}
+
+.send-btn {
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #4c51bf;
+}
+
+  </style>
+</head>
+<body>
+  <div class="upload-container">
+    <h2>Upload File</h2>
+    <div class="upload-box">
+      <p>Drop files here</p>
+      <p>Or</p>
+      <button class="browse-btn">Browse</button>
+    </div>
+    
+    <div class="file-list">
+      <div class="file-item">
+        <span>banner-design.png</span>
+        <button class="remove-btn">X</button>
+      </div>
+      <div class="file-item uploading">
+        <span>template-file.zip</span>
+
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+
+     
+
+
+        <button class="remove-btn">X</button>
+      </div>
+    </div>
+
+    <button class="send-btn">Send File</button>
+  </div>
+
+
+  <div style="width: 40%;">
+    <div class="tt">
+      <div class="gg"></div>
+    </div>
+  </div>
+</body>
+</html>

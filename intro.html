@@ -1,0 +1,297 @@
+<!--frontend 
+HTML hyper text markup language (1991) launched with first web www
+now owned by w3c
+
+hyper - reference link
+text - information for webpage
+markup - pesentation for text
+language - browser language
+
+!doctype html refers to html5
+
+meta tag in head refres the data of webpage
+
+meaningfull tags in html5-->
+
+<!-- commnts tag
+use this for documentation and readablity and reusability--> 
+
+<!--there are two types of tags available
+paired tags 
+
+eg <head></head>
+
+
+and unpaired tags
+
+<hr>
+<br>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        p{
+            background-color: aqua;
+        }
+        p:hover{
+            cursor: pointer;
+            line-height: 40px;
+        }
+        #emo:hover{
+            size: 60px;
+            color:red;
+            padding-left: 200px;
+        }
+       
+        li{
+            list-style: none;
+           
+        }
+
+        table{
+            width: 1800px;
+            border-collapse: collapse;
+            margin: 20px;
+           
+        }
+        th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            height: 100px;
+            width: 200px;
+            font-size: 50px;
+        }
+        td{
+            border-bottom: 5px solid black;
+            border-collapse: collapse;
+            vertical-align: bottom;
+            height: 50px;
+            
+        }
+
+        .tr:nth-child(odd){
+            background-color: aquamarine;
+            color: blue;
+        }
+        .tr:hover:nth-child(even){
+            background-color: brown;
+            color: aliceblue;
+        }
+        .tr:hover:nth-child(odd){
+            background-color: tan;
+            color: black;
+        }
+        .tt{
+            width: 1800px;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        .th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            height: 100px;
+            width: 200px;
+            font-size: 50px;
+        }
+        .td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            vertical-align: text-top;
+            height: 50px
+        }
+ </style>
+</head>
+<body>
+    <h1>heading</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit,<br> amet consectetur adipisicing elit. Fuga tempora amet consequatur dolorem nam, perspiciatis minima quasi soluta repellendus fugiat quisquam obcaecati aspernatur natus iure, veniam totam enim reprehenderit rerum.</p>
+    <hr>
+
+
+
+<!--
+    html elements
+    
+    syntax:
+            <tagname>content</tagname>
+            
+            ATTRIBUTES:
+            
+            ATTRIBUTES provides additional info about the element
+            attribute are always specified in start tag
+            attributes come in name or value pairs like name="value"
+            each and every elements have n number of attributes
+
+            Syntax:
+            <tagname name='value'> content </tagname>
+
+            -->
+
+            <h1 style ='background-color: rgb(146, 107, 117);'>example for attribute</h1>
+
+            <!--FORMATTING TAGS
+            
+                <b>= bold
+                    i-italic
+                    s-strikethrough
+                    sub - -->
+</body>
+</html>
+
+<!--html links and hyperlinks
+link
+1. internal links
+2.external links
+
+hyperlink
+anchor tag <a></a>
+-->
+<form action="">
+    <label for="" style="display:inline ;">comments</label> <br>
+    <textarea name="" id="" style="display: inline;"></textarea>
+</form>
+
+
+<form action="">
+<label for="">SIZE :</label><br>
+<input type="radio" name="1">Small <br>
+<input type="radio" name="1">Medium  <br>
+
+</form>
+
+<label>Size :</label>br
+<input type="radio" name="1">
+<label>Small</label>
+<input type="radio" name="1">
+<label>Medium</label>
+<input type="radio" name="1">
+<label>Large</label>
+<input type="radio" name="1">
+<label>XL</label>
+<input type="radio" name="1">
+<label>XXL</label>
+<br><br>
+
+<video src="siuu.mp4" controls>cr7</video>
+
+
+<H3>TASKS</H3>
+<a href="e1.html">task1</a>
+<a href="e2.html">task2</a>
+<a href="e3.html">task3</a>
+<a href="mlmd.html">task4</a>
+
+<br><br>
+
+<p style="height: 300px; width: 300px;line-height: 4px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aut dolore eos est illum officiis nemo assumenda sequi magnam sapiente expedita enim vel, ducimus, nobis autem officia a iure odit.</p>
+
+<br><br>
+
+<i class="fa-solid fa-heart" id="emo"></i>
+<i class="fa-solid fa-magnifying-glass"></i>
+
+
+<input type="search" placeholder=" ">
+
+<br><br><br><br>
+
+<h3>TOP GOAL SCORERS IN FOOTBALL </h3>
+
+
+<ul>
+    <li><i class="fa-solid fa-futbol"></i>&nbsp;Cristiano Ronaldo</li>
+    <li><i class="fa-solid fa-futbol"></i>&nbsp;Lionel Messi</li>    
+    <li><i class="fa-solid fa-futbol"></i>&nbsp;Josef Bican</li>    
+    <li><i class="fa-solid fa-futbol"></i>&nbsp;Pele</li>    
+    <li><i class="fa-solid fa-futbol"></i>&nbsp;Romario</li>  
+</ul>
+
+
+<table class="tt">
+    <tr class="tr">
+        <th class="th">P.ID</th>
+        <th class="th">Product Name</th>
+        <th class="th">Product Price</th>
+        <th class="th">Review</th>
+    </tr>
+    <tr class="tr">
+        <td class="td">101</td>
+        <td class="td">Rice</td>
+        <td class="td">120</td>
+        <td class="td">Good Enough</td>
+    </tr>
+
+    <tr class="tr">
+        <td class="td">102</td>
+        <td class="td">sugar</td>
+        <td class="td">140</td>
+        <td class="td">good</td>
+    </tr>
+    <tr class="tr">
+        <td class="td">103</td>
+        <td class="td">Dal</td>
+        <td class="td"> 150</td>
+        <td class="td">Very good</td>
+    </tr>
+   
+    
+</table>
+
+<br><br><br>
+<hr>
+<br><br>
+<table>
+    <caption style="font-weight: bolder; font-size: 30px;">TOP GOAL SCORERS IN FOOTBALL</caption>
+    <thead>
+        <tr>
+            <th>GOAL SCORER</th>
+            <th>GOAL SCORED</th>
+            <th colspan="3" style="width: 70%;">NATIONALITY AND CLUBS</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr id="cr">
+            <td>Cristiano Ronaldo </td>
+            <td>902 Goals</td>
+            <td>Portugal</td>
+            <td>REAL MADRID</td>
+            <td>MAN UNITED</td>
+        </tr>
+        <tr id>
+            <td>Lionel Messi</td>
+            <td>838 Goals</td>
+            <td>Argentina</td>
+            <td>FC BARCELONA</td>
+            <td>PSG</td>
+        </tr>
+
+        <tr>
+            <td>Josep Bican</td>
+            <td>805 Goals</td>
+            <td>Czech Republic</td>
+            <td>Slavia Prague</td>
+            <td>--</td>
+        </tr>
+
+        <tr>
+            <td>PELE</td>
+            <td>784 Goals</td>
+            <td>Brazil</td>
+            <td>Santos FC</td>
+            <td>New York Cosmos</td>
+        </tr>
+
+        <tr>
+            <td>Romario</td>
+            <td>772 Goals</td>
+            <td>Brazil</td>
+            <td>vasco Da Gama</td>
+            <td>FC BARCELONA</td>
+        </tr>
+    </tbody>
