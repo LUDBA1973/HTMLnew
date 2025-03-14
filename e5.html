@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Like Webpage</title>
+    <style>
+        /* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #1DB954;
+    padding: 20px 0;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Section */
+main {
+    padding: 50px 0;
+}
+
+.playlist h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.playlist p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+
+}
+
+.song-list li {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #282828;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.song-list li p {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #282828;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="spotify-logo.png" alt="Spotify Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Your Library</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+<section class="playlist">
+            <div class="container">
+                <h1>Your Playlist</h1>
+                        
+                <ul class="song-list">
+                    <li>
+                        <div class="song">
+                            <p><strong>Song Title 1</strong> - Artist 1</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="song">
+                            <p><strong>Song Title 2</strong> - Artist 2</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="song">
+                            <p style="display: inline;"><strong>Song Title 3</strong> - Artist 3</p>
+                            <audio src="song1.mp3" controls style="display: inline;"></audio>
+                        </div>
+                    </li>
+                    <!-- Add more songs as needed -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Spotify Clone</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

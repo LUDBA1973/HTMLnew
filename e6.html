@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO App</title>
+    <link rel="icon" href="yo.webp">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+#head{
+    max-width: 1500px;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    padding: 20px ;
+}
+
+header nav ul li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+
+.song-list li {
+    list-style: none;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #282828;
+    border-radius: 8px;
+    
+}
+/*
+.song-list audio{
+   align-items: center;
+    padding-top: 150px;
+}*/
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="head" class="container">
+            <nav >
+                <ul>
+                    <li> <img src="youtbe.png" alt="" width="140px" height="80px" ></li>
+                    <li style="padding-left: 10%;">Home&nbsp;&nbsp;</li>
+                    <li>Shorts&nbsp;&nbsp;</li>
+                    <li>Subscriptions&nbsp;&nbsp;</li>
+                    <li style="padding-left: 5%;"><input type="search" placeholder="Search Videos" style="width: 450px; height: 45px; border: 0px; border-radius: 25px; padding: 10px;"></li>
+                    <li style=" padding-left: 5%; font-size: large;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create</li>
+                    <li style=" font-size: large;">&nbsp;&nbsp;&nbsp;&nbsp;Notifications&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li><img src="prlg.jpg" alt="" width="45px" height="45px" style="border-radius: 20px;"></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <center>
+        <div class="container">
+            <h1>Search Results For " Miracle Club"</h1>
+                    
+            <ul class="song-list">
+               
+                <li class="song-list">
+                    <video width="720" height="300" controls>
+                        <source src="v1.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                     </video>
+                     <h3>Real Madrid - Manchester City 6-5 | Cinematic Highlights</h3>
+                </li>
+
+                <li class="song-list">
+                    <video width="720" height="300" controls>
+                        <source src="v2.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                     </video>
+                     <h3>Real Madrid v Bayern Munich | Champions League 23/24</h3>
+            </li>
+
+            <li class="song-list">
+                <video width="720" height="300" controls>
+                    <source src="v4.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                 </video>
+                 <h3>Real Madrid v Atlético Madrid: 2014 UEFA Champions League final highlights</h3>
+        </li>
+        <li class="song-list">
+            <video width="720" height="300" controls>
+                <source src="v3.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+             </video>
+             <h3>
+                The CL-Final Real v.s. Atletico from a different perspective</h3>
+    </li>
+                
+            </ul>
+        </div>
+    </section>
+</center>
+    </main>
+</body>
+</html>

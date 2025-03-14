@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="icon" href="spotify.png">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* Header */
+header {
+    background-color: #1DB954;
+    padding: 20px ;
+}
+
+header .logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 11px;
+    margin-left: 4%;
+}
+header nav ul li {
+    display: inline;
+    cursor: pointer;
+}
+main {
+    padding: 50px 0;
+}
+
+.playlist h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.playlist p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.song-list li {
+    list-style: none;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #282828;
+    border-radius: 8px;
+    
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="s1.png" alt="Spotify Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li>Home&nbsp;&nbsp;</li>
+                    <li>Library&nbsp;&nbsp;</li>
+                    <li><input type="search" placeholder="Search Songs" style="width: 300px; height: 45px; border: 0px; border-radius: 25px; padding: 10px;"></li>
+                    <li style="font-family: Arial, Helvetica, sans-serif; font-size: x-large; padding-left: 30%;">&nbsp;&nbsp;&nbsp;&nbsp;Profile&nbsp;&nbsp;<img src="prlg.jpg" alt="" width="50px" height="50px" style="border-radius: 15px;">
+                    </li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <center>
+        <div class="container">
+            <h1>Your Playlist</h1>
+                    
+            <ul class="song-list">
+               
+                <li class="song-list">
+                        <p ><strong style="font-size: 150%;">Oh Raaya</strong><br> <br><img src="songlogo.jpg" alt=""><br><br> Singers: A.R. Rahman, Dhanush, Ganavya Doraiswamy<br>Duration: 3:27 min</p>
+                        <audio src="s1.mp3" controls ></audio>
+                </li>
+
+                <li class="song-list">
+                    <p ><strong style="font-size: 150%;">Adangatha Asuran</strong><br> <br><img src="songlogo.jpg" alt=""><br><br>Singers: A.R. Rahman, Dhanush<br>Duration: 4:09 min</p>
+                    <audio src="s2.mp3" controls  ></audio>
+            </li>
+
+            <li class="song-list">
+                <p ><strong style="font-size: 170%;">Raayan Rumble</strong><br> <br><img src="songlogo.jpg" alt=""><br><br>Singers: Arivu, A.R. Rahman<br>Duration: 3:31 min</p>
+                <audio src="s3.mp3" controls  ></audio>
+        </li>
+                
+            </ul>
+        </div>
+    </section>
+</center>
+    </main>
+</body>
+</html>
